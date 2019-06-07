@@ -7,7 +7,7 @@ const ImageBlock = ({imageUrl, box}) => {
 	return (
 		<div className="text-center d-flex justify-content-center">
 			<div className="text-center mt-4 position-absolute border">
-				<img id='inputImage' alt='' src={imageUrl} max-width="500px" height="auto"/>
+				<img id='inputImage' alt='' src={imageUrl} />
 				<div className="bounding-box" 
 				style={{top: box.topRow, right: box.rightCol , bottom: box.bottomRow, left: box.leftCol}}>
 				</div>

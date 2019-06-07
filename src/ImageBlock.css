@@ -6,3 +6,14 @@
 	justify-content: center;
 	cursor: pointer;
 }
+
+#inputImage {
+	max-width: 500px;
+	height: auto;
+}
+
+@media screen and (max-width: 500px){
+	#inputImage {
+		max-width: 300px;
+	}
+}
