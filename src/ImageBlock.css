@@ -8,12 +8,12 @@
 }
 
 #inputImage {
-	max-width: 500px;
+	width: 200px;
 	height: auto;
 }
 
 @media screen and (max-width: 500px){
 	#inputImage {
-		max-width: 300px;
+		max-width: 100px;
 	}
 }
